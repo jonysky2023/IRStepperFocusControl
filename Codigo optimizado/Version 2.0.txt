@@ -1,0 +1,10 @@
+Version 2.0
+
+Cambios realizados:
+
+Las constantes y variables globales se definen al principio para mayor claridad.
+En lugar de un switch-case, se utilizó un bucle for para simplificar el código y hacerlo más legible.
+Se eliminó la llamada a la función delay ya que puede interferir con la recepción de los códigos IR.
+Se agregó una llamada a la función smallStepper.release() en los casos donde el botón se libera para asegurarse de que el motor se detenga correctamente.
+Se cambiaron los nombres de las variables y objetos para seguir una convención de nombres más clara y legible.
+Estos cambios ayudan a mejorar la eficiencia y claridad del código, y aseguran que el motor se detenga correctamente después de tomar los pasos necesarios.
