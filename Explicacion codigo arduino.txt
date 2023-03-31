@@ -1,18 +1,35 @@
-Codigo de Arduino escrito en C++ que controla un motor paso a paso usando un control remoto infrarrojo (IR). El código define los valores de la señal remota IR para diferentes pulsaciones de botones y asigna cada pulsación de botón a un cierto número de pasos y dirección de rotación para el motor paso a paso. El código también establece la velocidad del motor para cada pulsación de botón.
+Codigo de Arduino escrito en C++ que controla un motor paso a paso usando un control remoto infrarrojo (IR).
+El código define los valores de la señal remota IR para diferentes pulsaciones de botones y asigna cada pulsación
+de botón a un cierto número de pasos y dirección de rotación para el motor paso a paso.
+El código también establece la velocidad del motor para cada pulsación de botón.
 
-El motor paso a paso utilizado en este código tiene 32 pasos por revolución, y el código especifica la cantidad de pasos que se deben dar en cada dirección para cada pulsación de botón. El código también establece los pines para el controlador del motor paso a paso (In1, In2, In3 e In4) en la secuencia adecuada para que el motor gire correctamente.
+El motor paso a paso utilizado en este código tiene 32 pasos por revolución, y el código especifica la cantidad
+de pasos que se deben dar en cada dirección para cada pulsación de botón.
+El código también establece los pines para el controlador del motor paso a paso (In1, In2, In3 e In4)
+en la secuencia adecuada para que el motor gire correctamente.
 
-El receptor IR usado en este código está conectado al pin 11 en el Arduino, y el código inicia el receptor en la función de configuración () usando la enableIRIn()función. La decode()función se usa para leer las señales IR, y la resume()función se llama después de cada pulsación de botón para recibir la siguiente señal.
+El receptor IR usado en este código está conectado al pin 11 en el Arduino,
+y el código inicia el receptor en la función de configuración () usando la enableIRIn()función.
+La decode()función se usa para leer las señales IR, y la resume()función se llama después
+de cada pulsación de botón para recibir la siguiente señal.
 
-En general, este código es una implementación simple de un sistema de control de motor paso a paso que utiliza un control remoto IR y se puede adaptar fácilmente para su uso en otras aplicaciones con diferentes motores o interfaces de control.
+En general, este código es una implementación simple de un sistema de control de motor paso a paso que utiliza
+un control remoto IR y se puede adaptar fácilmente para su uso en otras aplicaciones con diferentes motores o interfaces de control.
 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 
-Arduino code written in C++ that controls a stepper motor using an infrared (IR) remote control. The code defines the IR remote signal values for different button presses, and maps each button press to a certain number of steps and direction of rotation for the stepper motor. The code also sets the speed of the motor for each button press.
+Arduino code written in C++ that controls a stepper motor using an infrared (IR) remote control.
+The code defines the IR remote signal values for different button presses, and maps each button press to
+a certain number of steps and direction of rotation for the stepper motor.
+The code also sets the speed of the motor for each button press.
 
-The stepper motor used in this code has 32 steps per revolution, and the code specifies the number of steps to take in each direction for each button press. The code also sets the pins for the stepper motor driver (In1, In2, In3, and In4) in the proper sequence for the motor to rotate correctly.
+The stepper motor used in this code has 32 steps per revolution, and the code specifies the number of steps to take in each direction for each button press.
+The code also sets the pins for the stepper motor driver (In1, In2, In3, and In4) in the proper sequence for the motor to rotate correctly.
 
-The IR receiver used in this code is connected to pin 11 on the Arduino, and the code starts the receiver in the setup() function using the enableIRIn() function. The decode() function is used to read the IR signals, and the resume() function is called after each button press to receive the next signal.
+The IR receiver used in this code is connected to pin 11 on the Arduino, and the code starts the receiver
+in the setup() function using the enableIRIn() function. The decode() function is used to read the IR signals,
+and the resume() function is called after each button press to receive the next signal.
 
-Overall, this code is a simple implementation of a stepper motor control system using an IR remote control, and it can be easily adapted for use in other applications with different motors or control interfaces.
+Overall, this code is a simple implementation of a stepper motor control system using an IR remote control,
+and it can be easily adapted for use in other applications with different motors or control interfaces.
