@@ -1,4 +1,5 @@
 # IRStepperFocusControl
-Un repositorio de código que contiene un proyecto para controlar un motor paso a paso usando un control remoto IR con un enfoque específico.
-Es un enfocador independiente, no necesita de un ordenador o raspberry para ser controlado
-A través de un mando a distancia IR y una batería es autonomo
+Repositorio para crear un proyecto de un enfocador para un telescopio astronomico
+Este enfocador debe ser autónomo sin necesidad de controlarlo desde un ordenador ni una raspberry
+Para controlar un motor paso a paso se ha usado un control remoto IR con unos valores de enfoque específicos de pasos.
+La alimentación se realiza a través de una batería externa
